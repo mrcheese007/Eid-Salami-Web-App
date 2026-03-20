@@ -32,7 +32,7 @@ if submitted:
         number_encoded = urllib.parse.quote(number.strip())
 
         # Change this to your real deployed URL later
-        base_url = "http://localhost:8501"
+        base_url = "https://eidsalami2026.streamlit.app/"
         link = f"{base_url}/Salami_Dao?user={name_encoded}&acc={number_encoded}"
 
         st.success("🎉 তোমার ভাইরাল লিঙ্ক তৈরি হয়েছে!")
